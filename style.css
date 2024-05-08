@@ -1,0 +1,76 @@
+.logo {
+  float: left;
+  padding-right: 20px;
+}
+
+nav {
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change link color to black */
+}
+
+.bar {
+  float: right;
+  margin-right: 40px;
+  display: inline-block;
+  position: absolute;
+  right: 0%;
+  top: 5px;
+}
+.bar button {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 20px;
+  color: hsl(0, 0%, 41%);
+}
+.btn button {
+  color: white;
+  /* font-size: 20px; */
+  background-color: black;
+  /* border: 1px;
+  border-radius: 5px; */
+  margin-bottom: 20px;
+}
+
+.hero {
+  float: right;
+  right: 10%;
+  position: relative;
+}
+.hero img {
+  width: 400px;
+  height: 500px;
+  margin-top: 9%;
+}
+.content {
+  float: left;
+  left: 10%;
+  position: relative;
+}
+.icons {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  /* background-color: black; */
+  display: inline-flex;
+}
+.icons img {
+  margin-right: 30px;
+  height: 50%;
+}
